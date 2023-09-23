@@ -1,0 +1,22 @@
+.todoWrap{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 5px;
+    background: #0f0d0d;
+    padding:10px;
+    border-radius: 6px;
+    transition: .3s ease-in-out;
+}
+.todoWrap:hover{
+    background: #151212;
+}
+.btn{
+    color:#cecece;
+    font-size: 20px;
+    cursor: pointer;
+    transition:.3s ease;
+}
+.btn:hover{
+    color:#d40b0b;
+}

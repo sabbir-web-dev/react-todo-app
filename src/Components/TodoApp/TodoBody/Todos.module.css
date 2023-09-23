@@ -1,0 +1,11 @@
+.todosWrap{
+    min-width:500px;
+    height: 55%;
+    border-radius: 15px;
+    background: #121010;
+    padding:10px;
+    overflow-y: auto;
+}
+.todosWrap::-webkit-scrollbar {
+    width: 0px;
+}

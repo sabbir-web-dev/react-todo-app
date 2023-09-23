@@ -1,0 +1,37 @@
+.homeWrap{
+    min-width:500px;
+    border-radius: 15px;
+    background: #121010;
+    padding:10px;
+    margin-bottom: 2px;
+    text-align: center;
+    margin-top: 50px;
+}
+.homeWrap h2{
+    margin-bottom: 10px;
+    font-size: 30px;
+}
+.inputWrap{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.input{
+    flex-basis: 80%;
+    padding:5px;
+    border: none;
+    margin-bottom: 9px;
+    border-radius: 5px;
+    outline-color: #12101045;
+}
+.submitBtn{
+    border: none;
+    padding:8px 40px;
+    font-weight: 600;
+    border-radius: 5px;
+    transition: .3s ease;
+    cursor: pointer;
+}
+.submitBtn:hover{
+    background-color: #ddd;
+}
